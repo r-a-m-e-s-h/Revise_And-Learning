@@ -2,10 +2,10 @@ package TestNG_Revise;
 
 import org.testng.annotations.Test;
 
-public class priority_R {
+public class skipTC_enaable_R {
 	
-	
-	@Test(priority=0)
+
+	@Test(priority=0,enabled=false)
 	public void test0()
 	{
 		System.out.println("Im Zeroth priority");
@@ -22,7 +22,7 @@ public class priority_R {
 	{
 		System.out.println("Im test 2");
 	}
-	@Test
+	@Test(enabled=false)
 	public void test3()
 	{
 		System.out.println("im test test3 normal ");
@@ -32,10 +32,11 @@ public class priority_R {
 	{
 		System.out.println("im minus test1");
 	}
-	@Test(priority=-5)
+	@Test(priority=-5,enabled=false)
 	public void test5minus()
 	{
 		System.out.println("im minus test5");
 	}
+
 
 }
