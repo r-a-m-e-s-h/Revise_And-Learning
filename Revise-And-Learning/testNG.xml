@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "practise_suite" parallel = "methods" thread-count="2">
+
+<test name = "practise_test">
+
+<parameter name = "Text" value= "Hellow world"></parameter>
+<!-- <parameter name="" value = ""></parameter> -->
+
+
+<groups>
+
+<run>
+
+<!-- <include name = "level1" /> -->
+
+<exclude name = "level2" />
+<exclude name = "level3" />
+
+</run>
+<listeners>
+<listener class-name = "TestNG_Revise.listeners_R" />
+</listeners>
+</groups>
+
+<classes>
+
+<!-- <class name = "TestNG_Revise.groups_R" />
+<class name ="TestNG_Revise.parameter_R" /> -->
+<!-- <class name ="TestNG_Revise.parallelExecution\\_R" /> -->
+<!-- <class name = "TestNG_Revise.assertions_R" /> -->
+<class name= "sel_Advanced.parallel_R" />
+
+
+
+
+</classes>
+
+
+
+
+
+</test>
+
+
+
+</suite>

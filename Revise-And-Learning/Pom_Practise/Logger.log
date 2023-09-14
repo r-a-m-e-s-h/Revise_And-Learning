@@ -1,0 +1,7 @@
+2023-09-14 16:53:46 INFO  Nop-Commerce:35 - driver initialized
+2023-09-14 16:53:47 INFO  Nop-Commerce:40 - browser maximized
+2023-09-14 16:53:47 INFO  Nop-Commerce:45 - base url is opened
+2023-09-14 16:53:49 INFO  Nop-Commerce:17 - user name is entered
+2023-09-14 16:53:50 INFO  Nop-Commerce:20 - password is entered
+2023-09-14 16:53:52 INFO  Nop-Commerce:23 - login buttion is clicked
+2023-09-14 16:53:53 INFO  Nop-Commerce:53 - driver is closed(quitted)
