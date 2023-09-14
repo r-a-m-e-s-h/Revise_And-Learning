@@ -1,4 +1,4 @@
-package DataDriven_;
+package TestCases;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -11,21 +11,24 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
-public class Test_Sep13File {
+import PageObjects.LoginPage;
+
+public class loginDD_TC_002 extends BaseClass {
 
 
 
-	@DataProvider(name="xldata")
-	public Object[][] getData() throws IOException
+	@DataProvider(name="xlData")
+	public Object[][] getXlData() throws IOException
 	{
-		String fpath = System.getProperty("user.dir")+"/TestData.xlsx";
+		// System.getProperty("user.dir")+
+		String fpath ="Pom_Practise/utilites/TestData.xlsx";
 		FileInputStream fis = new FileInputStream(fpath);
 		XSSFWorkbook book = new XSSFWorkbook(fis);
-		XSSFSheet sheet = book.getSheetAt(0);
+		XSSFSheet sheet = book.getSheet("Sheet2");
 		int rowCount = sheet.getLastRowNum();
 		int colCount = sheet.getRow(0).getLastCellNum();
 
-		Object[][] data = new Object[rowCount][colCount];
+		Object[][] data= new Object[rowCount][colCount];
 
 		for(int i=1;i<=rowCount;i++)
 		{
@@ -35,17 +38,22 @@ public class Test_Sep13File {
 				Cell cell = row.getCell(j);
 				data[i-1][j] = cell.getStringCellValue();
 			}
+
 		}
 		return data;
 
 	}
-
-
-	@Test(dataProvider = "xldata")
-	public void testGetDataFromXLFile(String uname, String pwd)
+	
+	@Test(dataProvider="xlData")
+	public void DDtest(String uname, String pwd) throws InterruptedException
 	{
-		System.out.println("The username is : "+uname);
-		System.out.println("The pwd is : "+pwd);
+		//System.out.println("The username is : "+uname);
+		//System.out.println("The password is :"+pwd);
+		
+		LoginPage lp = new LoginPage(driver);
+		lp.EnterUserName(uname);
+		lp.EnterPwd(pwd);
+		lp.clickLoginBtn();
 	}
 
 }
