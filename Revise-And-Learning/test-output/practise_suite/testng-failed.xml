@@ -13,11 +13,12 @@
       </run>
     </groups>
     <classes>
-      <class name="TestNG_Revise.assertions_R">
+      <class name="interview_Questions.failed_TestCases">
         <methods>
-          <include name="testAssert"/>
+          <include name="testcase1"/>
+          <include name="testcase2"/>
         </methods>
-      </class> <!-- TestNG_Revise.assertions_R -->
+      </class> <!-- interview_Questions.failed_TestCases -->
     </classes>
   </test> <!-- practise_test(failed) -->
 </suite> <!-- Failed suite [practise_suite] -->

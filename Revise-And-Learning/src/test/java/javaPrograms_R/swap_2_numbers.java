@@ -13,7 +13,7 @@ public class swap_2_numbers {
 
 		temp = my_salary;
 		my_salary=senior_Salary;
-		my_salary=temp;
+		senior_Salary=temp;
 
 		System.out.println("The A value is  "+my_salary+" \n The B value is "+senior_Salary);
 	}
@@ -41,7 +41,8 @@ public class swap_2_numbers {
 	{
 
 		swap_2_numbers rb = new swap_2_numbers();
-		rb.swap2nos_withoutTemp();
+		//rb.swap2nos_withoutTemp();
+		rb.swap2nos_withtemp();
 
 
 	}

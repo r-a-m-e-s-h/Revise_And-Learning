@@ -3,6 +3,14 @@
 
 <test name = "practise_test">
 
+<listeners>
+
+<listener class-name="interview_Questions.iTransformer" ></listener>
+
+</listeners>
+
+
+
 <parameter name = "Text" value= "Hellow world"></parameter>
 <!-- <parameter name="" value = ""></parameter> -->
 
@@ -28,7 +36,8 @@
 <class name ="TestNG_Revise.parameter_R" /> -->
 <!-- <class name ="TestNG_Revise.parallelExecution\\_R" /> -->
 <!-- <class name = "TestNG_Revise.assertions_R" /> -->
-<class name= "sel_Advanced.parallel_R" />
+<!-- <class name= "sel_Advanced.parallel_R" />  -->
+<class name ="interview_Questions.failed_TestCases" />
 
 
 
