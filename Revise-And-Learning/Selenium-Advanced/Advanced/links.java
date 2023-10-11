@@ -50,6 +50,8 @@ public class links {
 		int size = totallinks.size();
 		System.out.println("The total num of link in the page are : "+size);
 		
+		Thread.sleep(5000);
+		
 		Actions actions= new Actions(driver);
 		actions.clickAndHold(brokenlink);
 		actions.moveToElement(brokenlink);

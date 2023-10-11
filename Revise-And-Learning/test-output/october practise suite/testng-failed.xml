@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [october practise suite]">
+  <test thread-count="5" name="practise test(failed)">
+    <parameter name="text1" value="hello"/>
+    <parameter name="text2" value="world"/>
+    <classes>
+      <class name="TestNG_Revise.parameter">
+        <methods>
+          <include name="test1"/>
+        </methods>
+      </class> <!-- TestNG_Revise.parameter -->
+    </classes>
+  </test> <!-- practise test(failed) -->
+</suite> <!-- Failed suite [october practise suite] -->

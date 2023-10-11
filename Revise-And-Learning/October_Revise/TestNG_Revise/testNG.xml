@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="october practise suite" parallel="methods" thread-count="2">
+
+	<test name="practise test">
+
+	<!-- 	<listeners>
+			<listener class-name="TestNG.listener_example"></listener>
+		</listeners> -->
+
+		<parameter name="text1" value="hello" />
+		<parameter name="text2" value="world" />
+
+		<groups>
+
+			<run>
+
+				<include name="group 1"></include>
+
+			</run>
+
+		</groups>
+
+		<classes>
+
+			<!-- <class name="TestNG_Revise.parameter" /> -->
+
+			<class name="TestNG_Revise.groups" />
+
+			<!-- <class name="TestNG_Revise.parallel_execution" /> -->
+
+
+
+		</classes>
+
+	</test>
+
+</suite>

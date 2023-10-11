@@ -39,6 +39,8 @@ public class javascript_Sep12 {
 		
 		Thread.sleep(3000);
 		
+		//e.executeScript(document.gete, null)
+		
 		
 		
 		

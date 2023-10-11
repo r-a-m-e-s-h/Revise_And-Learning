@@ -3,12 +3,11 @@
 <suite name="Failed suite [Failed suite [Default suite]]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)(failed)">
     <classes>
-      <class name="interview_Questions.failed_TestCases">
+      <class name="TestNG_Revise.parameter">
         <methods>
-          <include name="testcase1"/>
-          <include name="testcase2"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- interview_Questions.failed_TestCases -->
+      </class> <!-- TestNG_Revise.parameter -->
     </classes>
   </test> <!-- Default test(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Default suite]] -->

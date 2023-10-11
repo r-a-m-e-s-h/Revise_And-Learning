@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Advanced.links">
+      <class name="selenium_Revise.file_upload">
         <methods>
-          <include name="testLinks"/>
+          <include name="testUploads"/>
         </methods>
-      </class> <!-- Advanced.links -->
+      </class> <!-- selenium_Revise.file_upload -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

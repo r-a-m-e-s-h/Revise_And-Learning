@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-19T20:49:15 IST" name="Default suite" finished-at="2023-09-19T20:49:15 IST" duration-ms="158">
+  <suite started-at="2023-10-11T19:42:19 IST" name="Default suite" finished-at="2023-10-11T19:42:43 IST" duration-ms="23621">
     <groups>
     </groups>
-    <test started-at="2023-09-19T20:49:15 IST" name="Default test" finished-at="2023-09-19T20:49:15 IST" duration-ms="158">
-      <class name="javaPrograms_R.test19Sep">
-        <test-method signature="test()[pri:0, instance:javaPrograms_R.test19Sep@3646a422]" started-at="2023-09-19T20:49:15 IST" name="test" finished-at="2023-09-19T20:49:15 IST" duration-ms="62" status="PASS">
+    <test started-at="2023-10-11T19:42:19 IST" name="Default test" finished-at="2023-10-11T19:42:43 IST" duration-ms="23621">
+      <class name="selenium_Advance_Revise.DragAndDrop">
+        <test-method signature="ddTest()[pri:0, instance:selenium_Advance_Revise.DragAndDrop@2eae8e6e]" started-at="2023-10-11T19:42:19 IST" name="ddTest" finished-at="2023-10-11T19:42:43 IST" duration-ms="23374" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- javaPrograms_R.test19Sep -->
+        </test-method> <!-- ddTest -->
+      </class> <!-- selenium_Advance_Revise.DragAndDrop -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
