@@ -37,12 +37,12 @@ public class heirarchy {
 	@Test
 	public void test5()
 	{
-		System.out.println("Im test ");
+		System.out.println("Im  at test 1 ");
 	}
 	@Test
 	public void test10()
 	{
-		System.out.println("Im test10");
+		System.out.println("Im at test 2");
 	}
 	@AfterMethod
 	public void test6()

@@ -13,7 +13,7 @@ import org.testng.annotations.Test;
 
 import PageObjects.LoginPage;
 
-public class loginDD_TC_002 extends BaseClass {
+public class loginDD_TC_002 extends TestBaseClass {
 
 
 

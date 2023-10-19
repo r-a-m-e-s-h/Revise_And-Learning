@@ -21,10 +21,13 @@ public class arrayList_Example {
 		
 		System.out.println(arraylist);
 		
-		System.out.println(arraylist.get(2));
+		System.out.println("The second is : "+arraylist.get(2));
 		
 		System.out.println(arraylist.remove(0));
 		System.out.println(arraylist);
+		
+	
+		
 		
 	}
 

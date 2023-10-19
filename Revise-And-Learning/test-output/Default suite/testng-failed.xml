@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium_Revise.file_upload">
+      <class name="selenium_Intrw_Qs.google_search_suggestions">
         <methods>
-          <include name="testUploads"/>
+          <include name="gsuggestion"/>
         </methods>
-      </class> <!-- selenium_Revise.file_upload -->
+      </class> <!-- selenium_Intrw_Qs.google_search_suggestions -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
