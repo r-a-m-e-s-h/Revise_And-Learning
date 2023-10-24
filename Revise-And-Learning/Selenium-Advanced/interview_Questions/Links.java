@@ -30,6 +30,7 @@ public class Links {
 		
 		for(WebElement allLinks : links1)
 		{
+
 			 System.out.println(allLinks.getAttribute("href"));
 		}
 		

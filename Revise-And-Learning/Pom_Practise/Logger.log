@@ -9,3 +9,22 @@
 2023-09-14 18:07:41 INFO  Nop-Commerce:40 - browser maximized
 2023-09-14 18:07:42 INFO  Nop-Commerce:45 - base url is opened
 2023-09-14 18:08:11 INFO  Nop-Commerce:53 - driver is closed(quitted)
+2023-10-24 23:24:22 INFO  Practise:38 - Practise Testing
+2023-10-24 23:26:37 INFO  Practise:38 - Practise Testing
+2023-10-24 23:27:37 INFO  Practise:38 - Practise Testing
+2023-10-24 23:46:16 INFO  Practise:38 - Practise Testing
+2023-10-24 23:46:32 INFO  Practise:44 -  URL Opened 
+2023-10-24 23:46:32 INFO  Practise:46 -  Window maximized 
+2023-10-24 23:46:38 INFO  Practise:55 -  Driver Closed 
+2023-10-24 23:47:54 INFO  Practise:38 - Practise Testing
+2023-10-24 23:48:08 INFO  Practise:44 -  URL Opened 
+2023-10-24 23:48:08 INFO  Practise:46 -  Window maximized 
+2023-10-24 23:48:09 INFO  Practise:19 -  UserName Entered
+2023-10-24 23:48:09 INFO  Practise:22 -  Password entered 
+2023-10-24 23:48:10 INFO  Practise:25 -  login btn clicked 
+2023-10-24 23:48:14 INFO  Practise:28 -  logout btn clicked 
+2023-10-24 23:48:14 INFO  Practise:55 -  Driver Closed 
+2023-10-25 00:03:56 INFO  Practise:38 - Practise Testing
+2023-10-25 00:04:12 INFO  Practise:44 -  URL Opened 
+2023-10-25 00:04:13 INFO  Practise:46 -  Window maximized 
+2023-10-25 00:04:34 INFO  Practise:55 -  Driver Closed 

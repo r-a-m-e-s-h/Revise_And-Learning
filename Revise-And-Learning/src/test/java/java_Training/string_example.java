@@ -33,6 +33,7 @@ public class string_example {
 		System.out.println("This is substring() example : "+name.substring(1));
 		
 		String string = new String("  hello World ");
+		
 		System.out.println("This is trim() example : "+string.trim());
 		
 		System.out.println("This is concat() example : "+name.concat(string));

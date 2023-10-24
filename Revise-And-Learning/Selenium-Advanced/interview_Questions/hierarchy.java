@@ -31,7 +31,7 @@ public class hierarchy {
 	@BeforeMethod
 	public void test4()
 	{
-		System.out.println("This is test 4");
+		System.out.println("I'm Before method----This is test 4");
 	}
 	@Test
 	public void test5()
@@ -47,7 +47,7 @@ public class hierarchy {
 	@AfterMethod
 	public void test6()
 	{
-		System.out.println("This is test 6");
+		System.out.println("Im Aftr method----This is test 6");
 	}
 	@AfterClass
 	public void test7()

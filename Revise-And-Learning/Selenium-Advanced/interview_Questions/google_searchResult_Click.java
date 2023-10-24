@@ -31,6 +31,8 @@ public class google_searchResult_Click {
 		
 		List<WebElement> list_results = driver.findElements(By.xpath("//ul[@role=\"listbox\"]//following::li"));
 		
+		
+		
 	int position=0;
 	
 	/*for(WebElement text : list_results)

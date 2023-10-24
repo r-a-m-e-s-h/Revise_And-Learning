@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-18T12:26:02 IST" name="Default suite" finished-at="2023-10-18T12:26:05 IST" duration-ms="3138">
+  <suite started-at="2023-10-25T00:03:56 IST" name="Default suite" finished-at="2023-10-25T00:04:34 IST" duration-ms="37749">
     <groups>
     </groups>
-    <test started-at="2023-10-18T12:26:02 IST" name="Default test" finished-at="2023-10-18T12:26:05 IST" duration-ms="3138">
-      <class name="TestNG_Revise.testing">
-        <test-method signature="StringReverse()[pri:0, instance:TestNG_Revise.testing@53045c6c]" started-at="2023-10-18T12:26:02 IST" name="StringReverse" finished-at="2023-10-18T12:26:02 IST" duration-ms="16" status="PASS">
+    <test started-at="2023-10-25T00:03:56 IST" name="Default test" finished-at="2023-10-25T00:04:34 IST" duration-ms="37749">
+      <class name="TestCases.LoginDDT_Practise">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestCases.LoginDDT_Practise@1169afe1]" started-at="2023-10-25T00:03:56 IST" name="SetUp" finished-at="2023-10-25T00:04:13 IST" duration-ms="16428" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- StringReverse -->
-        <test-method signature="numberReverse()[pri:0, instance:TestNG_Revise.testing@53045c6c]" started-at="2023-10-18T12:26:02 IST" name="numberReverse" finished-at="2023-10-18T12:26:02 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- numberReverse -->
-        <test-method signature="occuranceofLetter()[pri:0, instance:TestNG_Revise.testing@53045c6c]" started-at="2023-10-18T12:26:02 IST" name="occuranceofLetter" finished-at="2023-10-18T12:26:02 IST" duration-ms="6" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- occuranceofLetter -->
-        <test-method signature="practise(java.lang.String,java.lang.String)[pri:0, instance:TestNG_Revise.testing@53045c6c]" started-at="2023-10-18T12:26:05 IST" name="practise" data-provider="xlData" finished-at="2023-10-18T12:26:05 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- SetUp -->
+        <test-method signature="test_ddt(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginDDT_Practise@1169afe1]" started-at="2023-10-25T00:04:14 IST" name="test_ddt" data-provider="xldata" finished-at="2023-10-25T00:04:19 IST" duration-ms="4622" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,8 +26,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- practise -->
-        <test-method signature="practise(java.lang.String,java.lang.String)[pri:0, instance:TestNG_Revise.testing@53045c6c]" started-at="2023-10-18T12:26:05 IST" name="practise" data-provider="xlData" finished-at="2023-10-18T12:26:05 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- test_ddt -->
+        <test-method signature="test_ddt(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginDDT_Practise@1169afe1]" started-at="2023-10-25T00:04:19 IST" name="test_ddt" data-provider="xldata" finished-at="2023-10-25T00:04:24 IST" duration-ms="4646" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,8 +42,8 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- practise -->
-        <test-method signature="practise(java.lang.String,java.lang.String)[pri:0, instance:TestNG_Revise.testing@53045c6c]" started-at="2023-10-18T12:26:05 IST" name="practise" data-provider="xlData" finished-at="2023-10-18T12:26:05 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- test_ddt -->
+        <test-method signature="test_ddt(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginDDT_Practise@1169afe1]" started-at="2023-10-25T00:04:24 IST" name="test_ddt" data-provider="xldata" finished-at="2023-10-25T00:04:28 IST" duration-ms="4521" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,40 +58,28 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- practise -->
-        <test-method signature="practise(java.lang.String,java.lang.String)[pri:0, instance:TestNG_Revise.testing@53045c6c]" started-at="2023-10-18T12:26:05 IST" name="practise" data-provider="xlData" finished-at="2023-10-18T12:26:05 IST" duration-ms="6" status="PASS">
+        </test-method> <!-- test_ddt -->
+        <test-method signature="test_ddt(java.lang.String,java.lang.String)[pri:0, instance:TestCases.LoginDDT_Practise@1169afe1]" started-at="2023-10-25T00:04:28 IST" name="test_ddt" data-provider="xldata" finished-at="2023-10-25T00:04:33 IST" duration-ms="4894" status="PASS">
           <params>
             <param index="0">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[DummyUser]]>
+              </value>
             </param>
             <param index="1">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[qwert]]>
+              </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- practise -->
-        <test-method signature="printNumber()[pri:0, instance:TestNG_Revise.testing@53045c6c]" started-at="2023-10-18T12:26:05 IST" name="printNumber" finished-at="2023-10-18T12:26:05 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- test_ddt -->
+        <test-method is-config="true" signature="teardDown()[pri:0, instance:TestCases.LoginDDT_Practise@1169afe1]" started-at="2023-10-25T00:04:33 IST" name="teardDown" finished-at="2023-10-25T00:04:34 IST" duration-ms="980" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- printNumber -->
-        <test-method signature="printStart()[pri:0, instance:TestNG_Revise.testing@53045c6c]" started-at="2023-10-18T12:26:05 IST" name="printStart" finished-at="2023-10-18T12:26:05 IST" duration-ms="4" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- printStart -->
-        <test-method signature="smallestElementinArray()[pri:0, instance:TestNG_Revise.testing@53045c6c]" started-at="2023-10-18T12:26:05 IST" name="smallestElementinArray" finished-at="2023-10-18T12:26:05 IST" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- smallestElementinArray -->
-        <test-method signature="swapWithOutTemp()[pri:0, instance:TestNG_Revise.testing@53045c6c]" started-at="2023-10-18T12:26:05 IST" name="swapWithOutTemp" finished-at="2023-10-18T12:26:05 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- swapWithOutTemp -->
-        <test-method signature="swapWithTemp()[pri:0, instance:TestNG_Revise.testing@53045c6c]" started-at="2023-10-18T12:26:05 IST" name="swapWithTemp" finished-at="2023-10-18T12:26:05 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- swapWithTemp -->
-      </class> <!-- TestNG_Revise.testing -->
+        </test-method> <!-- teardDown -->
+      </class> <!-- TestCases.LoginDDT_Practise -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

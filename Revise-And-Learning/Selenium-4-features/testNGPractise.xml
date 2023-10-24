@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="practise suite">
+<test name="practise-test">
+
+
+<parameter name="",value="" ></parameter>
+
+<listenerss>
+
+
+
+<listener name=""></listener>
+
+
+</listenerss>
+
+<groups>
+
+
+<run>
+
+
+<include name=""></include>
+
+<exclude name=""></exclude>
+
+
+</run>
+
+
+
+</groups>
+
+
+<Classes>
+
+
+
+
+<class name="packagename.classname"></class>
+
+
+
+</Classes>
+
+
+
+
+
+
+</test>
+
+
+
+
+
+
+
+</suite>

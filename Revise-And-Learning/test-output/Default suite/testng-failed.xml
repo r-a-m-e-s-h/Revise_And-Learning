@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium_Intrw_Qs.google_search_suggestions">
+      <class name="TestCases.LoginDDT_Practise">
         <methods>
-          <include name="gsuggestion"/>
+          <include name="test_ddt"/>
         </methods>
-      </class> <!-- selenium_Intrw_Qs.google_search_suggestions -->
+      </class> <!-- TestCases.LoginDDT_Practise -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
