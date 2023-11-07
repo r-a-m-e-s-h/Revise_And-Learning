@@ -38,6 +38,7 @@ public class Waits {
 				  					withTimeout(Duration.ofSeconds(10))
 				  					.pollingEvery(Duration.ofSeconds(3))
 				  					.ignoring(NoSuchElementException.class);
+		  
 		WebElement fwait_btn =   	fwait.until(new Function<WebDriver, WebElement>(){
 		  		
 		  		

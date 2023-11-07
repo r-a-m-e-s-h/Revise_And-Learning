@@ -18,6 +18,9 @@
 	<classpathentry kind="src" path="October_Revise"/>
 	<classpathentry kind="src" path="Selenium-4-features"/>
 	<classpathentry kind="src" path="practise-24-oct-2023"/>
+	<classpathentry kind="src" path="Revise-26-Oct-2023"/>
+	<classpathentry kind="src" path="practise-2-Nov-2023"/>
+	<classpathentry kind="src" path="Nov-7-2023"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-9">
 		<attributes>
 			<attribute name="module" value="true"/>
