@@ -76,6 +76,11 @@ public class upoload_File {
 		robot.keyPress(KeyEvent.VK_ENTER);
 		robot.keyRelease(KeyEvent.VK_ENTER);
 		
+//		driver.navigate().back();
+//		driver.navigate().refresh();
+//		driver.navigate().forward();
+//		driver.navigate().to("");
+		
 		
 		
 		

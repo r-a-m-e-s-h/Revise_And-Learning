@@ -52,7 +52,13 @@ public class largest_of_3Numbes {
 		System.out.println(" The lrgest is : "+largest2);
 		
 		
+		int first=10;
+		int second=30;
 		
+		int third = first>second?first:second;
+		
+		
+		System.out.println(third);
 		
 	}
 
